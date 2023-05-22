@@ -1,0 +1,41 @@
+.mainContainer {
+  padding: 27px 0px;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  height: 45px;
+}
+.logoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+.logoContainer img {
+  background-size: cover;
+  height: 100px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 65%;
+  gap: 20px;
+  padding: 0px 5px;
+}
+.itemNav {
+  text-decoration: none;
+  color: white;
+  opacity: 0.8;
+}
+.itemNav:hover {
+  color: #747bff;
+}
+.searchContainer {
+  width: 30%;
+  margin-right: auto;
+
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,16 @@
+.landingContainer {
+  background-image: url(../../assets/detail1.jpg);
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  padding: 300px 300px;
+}
+.landingContainer button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  font-size: 12px;
+  margin: 5px 0px 5px 0px;
+}

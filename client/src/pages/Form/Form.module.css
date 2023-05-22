@@ -1,0 +1,49 @@
+.container {
+  color: rgb(31, 24, 14);
+
+  text-align: center;
+  background-image: url(../../assets/pxfuelrecortada.jpg);
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 100px;
+  background-position: top;
+  align-items: center;
+  padding-left: 150px;
+}
+.container button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  font-size: 12px;
+  margin: 5px 0px 5px 0px;
+}
+.buttonContainer {
+  padding-bottom: 50px;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 20px;
+}
+.formContainer input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+
+  color: white;
+}
+.formContainer input::placeholder {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  color: white;
+}
+.formContainer b {
+  border-bottom: 1px solid black;
+}
+.formContainer p {
+  color: white;
+}
